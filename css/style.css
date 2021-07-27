@@ -386,12 +386,12 @@ nav {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  margin: -30px;
+  margin: -15px;
 }
 
 .item-portfolio {
   margin: 15px;
-  width: calc(100% / 3 - 30px);
+  width: calc((100% - 90px) / 3);
 }
 
 /* .item-portfolio:not(:nth-child(3n)) {
