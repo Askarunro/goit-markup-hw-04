@@ -11,6 +11,10 @@
 /* ГЛОБАЛЬНІ СТИЛІ */
 
 body {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+
   font-family: 'Roboto', sans-serif;
   color: var(--text-color);
   background-color: var(--primary-color-white);
@@ -147,11 +151,22 @@ nav {
 /* SECTION-HERO */
 
 .section-hero {
-  padding: 200px 0;
+  padding-top: 200px;
   text-align: center;
+  /* max-width: 1600px; */
+  height: 600px;
+  /* margin-right: auto;
+  margin-left: auto; */
 
   background-color: #2f303a;
   color: var(--primary-color-white);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url('..//images/bgi.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .title-hero {
@@ -198,6 +213,34 @@ nav {
   width: 1px;
   height: 1px;
   margin: -1px;
+}
+
+.item-advantages::before {
+  display: block;
+  content: '';
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  background-size: 70px 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 30px;
+}
+
+.item-advantages:nth-child(1)::before {
+  background-image: url(..//images/icon-index/antenna1.svg);
+}
+
+.item-advantages:nth-child(2)::before {
+  background-image: url(..//images/icon-index/clock1.svg);
+}
+
+.item-advantages:nth-child(3)::before {
+  background-image: url(..//images/icon-index/diagram1.svg);
+}
+
+.item-advantages:nth-child(4)::before {
+  background-image: url(..//images/icon-index/astronaut1.svg);
 }
 
 .items-advantages {
@@ -371,7 +414,7 @@ nav {
 
  .item-portfolio {
   width: 370px;
-   width: calc(100% - 90)/ 3); 
+   width: calc(100% - 90)/ 3);
 }
 
 .item-portfolio:not(:nth-child(3n)) {
@@ -380,7 +423,8 @@ nav {
 
 .item-portfolio:not(:nth-last-child(-n + 3)) {
   margin-bottom: 30px;
-} */
+}
+*/
 
 /* по MDN */
 .portfolio-list {
