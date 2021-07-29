@@ -9,40 +9,40 @@
 
 /* ==========================================
 Single-colored icons can be modified like so:
-.icon-name {
+.name {
   font-size: 32px;
   color: red;
 }
 ========================================== */
 
-.icon-client1 {
+.client1 {
   width: 0.8720703125em;
 }
 
-.icon-client2 {
+.client2 {
   width: 0.76953125em;
 }
 
-.icon-client3 {
+.client3 {
   width: 1.0712890625em;
 }
 
-.icon-client4 {
+.client4 {
   width: 2.0234375em;
 }
 
-.icon-client5 {
+.client5 {
   width: 1.3408203125em;
 }
 
-.icon-client6 {
+.client6 {
   width: 2.0888671875em;
 }
 
-.icon-envelope {
+.envelope {
   width: 1.3330078125em;
 }
 
-.icon-smartphone {
+.smartphone {
   width: 0.625em;
 }

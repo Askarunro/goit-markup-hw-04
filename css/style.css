@@ -244,19 +244,19 @@ nav {
 } */
 
 .item-advantages.icon-antenna::before {
-  background-image: url(..//images/icon-index/antenna1.svg);
+  background-image: url(..//images/icon-index/svg/antenna.svg);
 }
 
 .item-advantages.icon-clock::before {
-  background-image: url(..//images/icon-index/clock1.svg);
+  background-image: url(..//images/icon-index/svg/clock.svg);
 }
 
 .item-advantages.icon-diagramma::before {
-  background-image: url(..//images/icon-index/diagram1.svg);
+  background-image: url(..//images/icon-index/svg/diagram.svg);
 }
 
 .item-advantages.icon-astronaut::before {
-  background-image: url(..//images/icon-index/astronaut1.svg);
+  background-image: url(..//images/icon-index/svg/astronaut.svg);
 }
 
 .items-advantages {
