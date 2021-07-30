@@ -126,19 +126,33 @@ nav {
 
 .items-cont {
   display: flex;
+  align-items: baseline;
 
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
+.icon-tel,
+.icon-mail {
+  margin-right: 10px;
+  fill: var(--text-color);
+}
+
 .items-cont .item-cont + .item-cont {
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 .link-mail,
 .link-tel {
   color: var(--text-color);
+}
+
+.link-mail:hover .icon-mail,
+.link-mail:focus .icon-mail,
+.link-tel:hover .icon-tel,
+.link-tel:focus .icon-tel {
+  fill: var(--accent-color);
 }
 
 .link-mail:hover,
@@ -147,7 +161,6 @@ nav {
 .link-tel:focus {
   color: var(--accent-color);
 }
-
 /* SECTION-HERO */
 
 .section-hero {
