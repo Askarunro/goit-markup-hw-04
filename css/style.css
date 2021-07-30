@@ -416,11 +416,14 @@ nav {
   fill: #afb1b8;
 }
 
-.link-company:hover {
+.link-company:hover,
+.link-company:focus {
   border-color: #2196f3;
+  outline: #2196f3;
 }
 
-.link-company:hover .icon-company {
+.link-company:hover .icon-company,
+.link-company:focus .icon-company {
   fill: #2196f3;
 }
 
@@ -462,16 +465,11 @@ nav {
 }
 
 .box-join {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 206px;
   padding-top: 12px;
   margin-left: 70px;
 }
 
 .title-join {
-  margin-right: 40px;
   margin-bottom: 20px;
   color: var(--primary-color-white);
   font-size: 14px;
@@ -479,66 +477,26 @@ nav {
   text-transform: uppercase;
 }
 
+.items-join {
+  display: flex;
+}
+
+.item-join:not(:last-child) {
+  margin-right: 10px;
+}
+
 .link-social.dark {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.link-social.dark:hover {
+.link-social.dark:hover,
+.link-social.dark:focus {
   background-color: #2196f3;
 }
 
 .icon-social.light {
   fill: var(--primary-color-white);
 }
-
-/*  */
-/* .join ul {
-  margin-top: 20px;
-}
-
-.join ul li {
-  display: inline-block;
-}
-
-.join ul li::after {
-  content: '';
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  display: block;
-
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 20px 20px;
-  background-color: rgba(255, 255, 255, 0.1);
-}
-
-.join .link-inst::after {
-  background-image: url(..//images/icon-index/instagram\ 2.svg);
-}
-
-.join .link-twit::after {
-  background-image: url(..//images/icon-index/twitter\ 1.svg);
-}
-
-.join .link-face::after {
-  background-image: url(..//images/icon-index/facebook\ 1.svg);
-}
-
-.join .link-in::after {
-  background-image: url(..//images/icon-index/linkedin\ 1.svg);
-}
-
-.join ul li:hover::after {
-  background-color: #2196f3;
-}
-
-.title-join {
-  color: var(--primary-color-white);
-  font-size: 14px;
-  line-height: 1.15;
-  text-transform: uppercase;
-}  */
 
 /* ПОРТФОЛІО */
 
