@@ -363,7 +363,6 @@ nav {
 
 .box-social {
   display: flex;
-  justify-content: space-between;
   margin-top: 16px;
   padding: 0 32px;
 }
@@ -381,12 +380,14 @@ nav {
   fill: #afb1b8;
 }
 
-.link-social:hover {
+.link-social:hover,
+.link-social:focus {
   background-color: #2196f3;
   cursor: pointer;
 }
 
-.link-social:hover .icon-social {
+.link-social:hover .icon-social,
+.link-social:focus .icon-social {
   fill: #ffffff;
 }
 
@@ -396,13 +397,13 @@ nav {
   padding: 94px 0;
 }
 
-.box-company {
+.items-company {
   display: flex;
   justify-content: space-between;
 }
 
 .link-company {
-  display: inline-flex;
+  display: flex;
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
